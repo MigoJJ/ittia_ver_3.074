@@ -91,11 +91,8 @@ public class EMR_HbA1c extends JFrame {
         double hba1c = Double.parseDouble(value);
         outputArea.append("   HbA1c       [    " + value + "   ] %\n");
         calculateHbA1c(hba1c);
-        
-        new Timer(3000, e -> {
-            save();
-            clear();
-        }).start();
+        save();
+        clear();
     }
 
     private void calculateHbA1c(double hba1c) {

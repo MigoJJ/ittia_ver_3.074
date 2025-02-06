@@ -1,6 +1,6 @@
 package je.panse.doro.fourgate.hypercholesterolemia;
 
-import javax.swing.*;
+import javax.swing.*;	
 import je.panse.doro.GDSEMR_frame;
 import java.awt.*;
 import java.awt.event.*;
